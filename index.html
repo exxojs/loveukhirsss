@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chair Up Babi!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+   
+    <div class="container" id="container">
+        <div id="welcome">
+            <h1>Halowowow my wifey 👉👈</h1>
+            <p>uhm i just noticed you seem off today and i made this cuz i want us to be hapihapihapi</p>
+        </div>
+        
+        <div id="questions">
+            <div class="question" id="moodQuestion">
+                <p>How are you feeling today?</p>
+                <button class="mood-btn" data-mood="happy">🥰</button>
+                <button class="mood-btn" data-mood="sad">😓</button>
+            </div>
+            <div class="question hidden" id="activityQuestion">
+                <p>achuchuchuchu how about we...</p>
+                <button class="activity-btn" data-activity="a_watch_movie">Watch a movie</button>
+                <button class="activity-btn" data-activity="go_on_a_date">Go on a date</button>
+                <button class="activity-btn" data-activity="play_roblox">Play Roblox</button>
+            </div>
+        </div>
+        
+        <div id="result" class="hidden">
+            <h2>Your Message:</h2>
+            <p id="message"></p>
+        </div>
+        <img src="roblox.png" alt="playWithMe" width="200px">
+    </div>
+   
+    <script src="script.js"></script>
+    <script src="confetti.js"></script>
+</body>
+</html>
